@@ -1,0 +1,18 @@
+class DecBin{
+	public static void main (String a[]){
+	
+	int d, h16, h1;
+	String nibble[] = {"0000","0001","0010","0011","0100","0101","0110","0111","1000","1001","1010","1011","1100","1101","1111"};
+	
+	
+	for (d = 0; d < 256; d++){
+		h16 = (int) (d / 16);
+		h1 = (int) (d % 16);
+		System.out.println(d + " = "+" h16 "+ h16 +" h1 "+h1);
+		
+		
+		
+		
+	}
+}
+}
