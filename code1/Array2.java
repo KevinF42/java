@@ -1,8 +1,6 @@
 import java.util.Arrays;
 class array2 { 
 	public static void printArray(int[] iarray) {
-
-	System.out.print("
 		int length = iarray.length;
 		int i;
 		  for (i = 0; i < length; i++){
@@ -19,6 +17,7 @@ class array2 {
 			ia[8] = -4;
 			ia[9] = -8;
 			
+			
 			System.out.println("Array unsorted\n");
 			for (i = 0; i <=11; i++){
 				System.out.print(ia[i]+" ");
@@ -29,7 +28,5 @@ class array2 {
 				System.out.print(ia[i]+" ");
 			}
 			System.out.println();
-		}
-}	
-
-}		
+	}
+}				
